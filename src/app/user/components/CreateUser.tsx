@@ -1,8 +1,7 @@
-import useUser from "../hooks/useFetchUser";
 import useMutateUser from "../hooks/useMutateUser";
 
 const CreateUser = async () => {
-  const { createUser } = await useMutateUser();
+  const { createUser } = useMutateUser();
 
   return (
     <div>

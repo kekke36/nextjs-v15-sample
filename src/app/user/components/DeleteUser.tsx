@@ -1,8 +1,7 @@
-import React from "react";
 import useMutateUser from "../hooks/useMutateUser";
 
-const DeleteUser = async () => {
-  const { deleteUser } = await useMutateUser();
+const DeleteUser = () => {
+  const { deleteUser } = useMutateUser();
 
   return (
     <div>
